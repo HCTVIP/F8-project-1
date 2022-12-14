@@ -63,13 +63,13 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 90px);
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding: 12px 0;
+  padding: 20px 0;
 }
 
 .navbar ul {
